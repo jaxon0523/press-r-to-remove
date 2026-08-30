@@ -30,7 +30,7 @@ Press R to invoke Remove from list.
 Press R to invoke Remove from this list.
 
 <p align="center">
-  <img src="https://github.com/jaxon0523/press-r-to-remove/blob/main/screenshots/jumplist-remove%20from%20this%20list.png?raw=true>
+  <img src="https://github.com/jaxon0523/press-r-to-remove/blob/main/screenshots/jumplist-remove%20from%20this%20list.png?raw=true">
 </p>
 
 ---
