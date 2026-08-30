@@ -11,9 +11,9 @@ A Windhawk mod that allows removing Start Menu and Jump List items using a custo
 
 ## Demo
 
-<p align="center">
-  ![](screenshots/demo.gif)
-</p>
+
+![](screenshots/demo.gif)
+
 
 <p align="center">
   <em>Press R to quickly remove items from Start Menu recommendations and Taskbar Jump Lists.</em>
