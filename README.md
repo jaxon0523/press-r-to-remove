@@ -20,7 +20,7 @@ A Windhawk mod that allows removing menu items using a keyboard shortcut.
 Press R to invoke Remove from list.
 
 <p align="center">
-  screenshots/start-menu-remove.png
+  <img src="https://github.com/jaxon0523/press-r-to-remove/blob/main/screenshots/startmenu-recommended-remove%20from%20list.png?raw=true">
 </p>
 
 ---
@@ -30,7 +30,7 @@ Press R to invoke Remove from list.
 Press R to invoke Remove from this list.
 
 <p align="center">
-  screenshots/jumplist-remove.png
+  <img src="https://github.com/jaxon0523/press-r-to-remove/blob/main/screenshots/jumplist-remove%20from%20this%20list.png?raw=true>
 </p>
 
 ---
@@ -40,5 +40,5 @@ Press R to invoke Remove from this list.
 Customize the hotkey in Windhawk settings.
 
 <p align="center">
-  screenshots/settings.png
+  <img src="https://github.com/jaxon0523/press-r-to-remove/blob/main/screenshots/settings.png?raw=true">
 </p>
