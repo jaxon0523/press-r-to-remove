@@ -12,7 +12,7 @@ A Windhawk mod that allows removing Start Menu and Jump List items using a custo
 ## Demo
 
 <p align="center">
-  <img src="screenshots/demo.gif
+  screenshots/demo.gif
 </p>
 
 <p align="center">
