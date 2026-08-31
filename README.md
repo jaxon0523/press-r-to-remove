@@ -5,7 +5,7 @@ A Windhawk mod that allows removing Start Menu and Jump List items using a custo
 🌐 Language / 語言
 
 - **English**
-- [EADME_zh-TW.md
+- [繁體中文](EADME_zh-TW.md)
 
 ---
 
