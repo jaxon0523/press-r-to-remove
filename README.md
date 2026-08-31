@@ -5,14 +5,14 @@ A Windhawk mod that allows removing Start Menu and Jump List items using a custo
 🌐 Language / 語言
 
 - **English**
-- README_zh-TW.md
+- [EADME_zh-TW.md
 
 ---
 
 ## Demo
 
 <p align="center">
-  screenshots/demo.gif
+  <img src="https://raw.githubusercontent.com/jaxon0523/press-r-to-remove/main/screenshots/demo.gif" alt="Demo">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ A Windhawk mod that allows removing Start Menu and Jump List items using a custo
 Press **R** to invoke **Remove from list** from the Windows Start Menu Recommended section.
 
 <p align="center">
-  screenshots/startmenu-recommended-remove from list.png
+  <img src="https://raw.githubusercontent.com/jaxon0523/press-r-to-remove/main/screenshots/startmenu-recommended-remove-from-list.png>
 </p>
 
 ---
@@ -47,17 +47,15 @@ Press **R** to invoke **Remove from list** from the Windows Start Menu Recommend
 Press **R** to invoke **Remove from this list** from Taskbar Jump Lists.
 
 <p align="center">
-  screenshots/jumplist-remove from this list.png
+  <img src="https://raw.githubusercontent.com/jaxon0523/press-r-to-remove/main/screenshots/jumplist-remove-from-this-list.png" alt="Jump List Support">
 </p>
 
 ---
 
-## Settings
-
-Customize the activation hotkey through Windhawk settings.
+## Windhawk settings.
 
 <p align="center">
-  screenshots/settings.png
+  <img src="https://raw.githubusercontent.com/jaxon0523/press-r-to-remove/main/screenshots/settings.png">
 </p>
 
 ---
@@ -67,7 +65,7 @@ Customize the activation hotkey through Windhawk settings.
 ### Install from Windhawk
 
 1. Install Windhawk.
-2. Install the **Press R to Remove** mod.
+2. Install Press R to Remove.
 3. Enable the mod.
 4. Open a supported context menu.
 5. Press the configured hotkey.
@@ -79,9 +77,12 @@ Customize the activation hotkey through Windhawk settings.
 - Windows 11
 - Windhawk
 
-Tested on:
+---
+
+## Tested On
 
 - Windows 11 24H2
+- Windows 11 25H2
 
 ---
 
@@ -101,4 +102,68 @@ Tested on:
 
 ## How It Works
 
-The mod monitors supported context menus and uses 
+The mod detects supported context menus and uses Microsoft UI Automation (UIA) to locate and invoke the corresponding command when the configured hotkey is pressed.
+
+Only visible and supported popup menus are processed, minimizing impact on system performance.
+
+---
+
+## Configuration
+
+Default hotkey:
+
+```text
+R
+```
+
+Can be changed in Windhawk settings.
+
+Examples:
+
+```text
+R
+X
+Delete
+```
+
+---
+
+## Known Limitations
+
+- Only supported menu items can be invoked.
+- Menu text may vary across Windows versions and languages.
+- Future Windows updates may require compatibility updates.
+
+---
+
+## Changelog
+
+### v1.0.0
+
+- Initial public release
+- Start Menu support
+- Jump List support
+- Customizable hotkey support
+- UI Automation based invocation
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2026 jaxon0523
+
+See the LICENSE file for details.
+
+---
+
+## Acknowledgements
+
+Built with:
+
+- Windhawk
+- Microsoft UI Automation API
+- Windows SDK
+
+Special thanks to the Windhawk community.
